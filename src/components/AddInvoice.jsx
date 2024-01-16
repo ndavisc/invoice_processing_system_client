@@ -55,7 +55,7 @@ const AddInvoice = ({ setAddInvoice }) => {
             />
             <TextField
             variant="standard"
-            placeholder="Enter amount (in USD)"
+            placeholder="Enter amount in USD"
             type="number"
             onChange={(e) => onValueChange(e)}
             name="amount"

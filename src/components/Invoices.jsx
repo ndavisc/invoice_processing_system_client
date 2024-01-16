@@ -39,7 +39,7 @@ const Invoices = ({ invoices, removeInvoice }) => {
                             <TableRow key={invoice.id}>
                                 <TableCell>{invoice.vendor}</TableCell>
                                 <TableCell>{invoice.product}</TableCell>
-                                <TableCell>Rs {invoice.amount}</TableCell>
+                                <TableCell>$ {invoice.amount}</TableCell>
                                 <TableCell>{invoice.date}</TableCell>
                                 <TableCell>{invoice.action}</TableCell>
                                 <TableCell><Button variant="contained" color="success" onClick={() => removeInvoice(invoice.id)}>Mark Done</Button></TableCell>
